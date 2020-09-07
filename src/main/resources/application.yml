@@ -8,7 +8,7 @@ spring:
       enabled: true
       file-size-threshold: 2KB
       max-file-size: 1024MB
-      max-request-size: 215MB
+      max-request-size: 1024MB
 
 logging:
   config: classpath:log/log4j2.xml
